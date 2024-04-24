@@ -8,4 +8,6 @@
     @isset($slot)
         {{ $slot }}
     @endisset
+
+    <livewire:footer />
 @endsection

@@ -1,15 +1,15 @@
 <div>
     <section
         class="bg-[url('/storage/app/public/img/Header.png')] bg-no-repeat bg-cover bg-right h-[800px] -ml-20 -mt-32">
-        <div class="relative h-[800px] -z-10 lg:z-0 overflow-x-hidden">
+        <div class="relative h-[800px] -z-10 md:z-0 overflow-x-hidden">
             <img src="{{ asset('/storage/img/blue-porsche.png') }}"
-                class="absolute w-3/4 -right-5 lg:-right-64 bottom-20 lg:bottom-20" alt="">
-            <div class="absolute w-85 -right-11 top-60 lg:right-8 lg:top-56">
-                <h1 class="text-3xl font-semibold font-poppins lg:text-5xl">
+                class="absolute w-3/4 -right-5 md:-right-64 bottom-20 md:bottom-20" alt="">
+            <div class="absolute w-85 -right-11 top-60 md:right-8 lg:top-56 md:top-80">
+                <h1 class="text-3xl font-semibold font-poppins md:text-5xl">
                     <span class="text-[#242424]">Find, book, and <br> rent a car </span>
                     <span class="text-primary">Easily</span>
                 </h1>
-                <h2 class="mt-10 font-poppins text-base lg:text-lg text-[#272727]">Get a car wherever and
+                <h2 class="mt-10 font-poppins text-base md:text-lg text-[#272727]">Get a car wherever and
                     whenever you <br>
                     need it
                     with your IOS
@@ -24,8 +24,9 @@
                     </a>
                 </div>
             </div>
-            <div class="absolute inset-x-1/2 top-[305px] md:inset-x-1/3 lg:inset-x-[30%] lg:top-[315px]">
-                <svg class="w-[115px] h-2.5 lg:w-[135px] lg:h-5" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div
+                class="absolute inset-x-[55%] top-[305px] md:inset-x-[38%] lg:inset-x-[30%] md:top-[410px] lg:top-[315px]">
+                <svg class="w-[100px] h-2.5 md:w-[135px] md:h-5" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M134.398 2.445C57.126-2.59 23.851 5.913 1.513 9.433c-.347 2.937-.216 5.353-.585 10.02C60.823-.003 100.753 3.194 134.353 4.433c.014-.369.004-.88.045-1.988Z"
                         fill="#1572D3" />
@@ -142,7 +143,7 @@
         </div>
     </section>
 
-    <section class="mt-28 lg:-ms-20 overflow-x-hidden">
+    <section class="overflow-x-hidden mt-28 lg:-ms-20">
         <div class="w-85 lg:w-[1520px] mx-auto grid items-center grid-cols-3 gap-6 lg:gap-24 lg:grid-cols-6">
             <div class="mx-auto">
                 <img src="{{ asset('/storage/img/honda.png') }}" alt="">
@@ -167,8 +168,8 @@
 
     <section class="mt-28 bg-[url('/storage/app/public/img/banner-2.png')] bg-no-repeat bg-cover h-[800px]">
         <div class="grid grid-cols-1 gap-24 md:grid-cols-2">
-            <span class="flex items-center justify-center md:h-[800px] md:-ms-44">
-                <img class="w-3/4 lg:w-full" src="{{ asset('/storage/img/white-audi.png') }}" alt="">
+            <span class="flex items-center justify-center md:h-[800px] lg:-ms-44">
+                <img class="w-3/4 md:w-full" src="{{ asset('/storage/img/white-audi.png') }}" alt="">
             </span>
             <span class="px-5 md:px-0">
                 <p
@@ -257,34 +258,33 @@
         </div>
     </section>
 
-    <section class="mt-56 md:mt-28 text-center">
+    <section class="mt-56 text-center lg:mt-28">
         <p
             class="mx-auto px-10 py-2.5 rounded-lg bg-opacity-10 bg-primary font-poppins font-medium text-sm text-primary w-fit">
             POPULAR RENTAL DEALS</p>
         <h2 class="mx-auto mt-5 text-2xl font-medium text-center lg:text-4xl w-fit font-poppins text-dark-gray">
-            Most
-            popular cars rental deals
+            Most popular car rental deals
         </h2>
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mt-20 w-85 mx-auto">
-            <div class="shadow-lg bg-white rounded-2xl px-5 py-10 max-w-64 mx-auto md:mx-0">
+        <div class="grid grid-cols-1 gap-8 mx-auto mt-20 md:grid-cols-2 lg:grid-cols-4 w-85">
+            <div class="px-5 py-10 mx-auto bg-white shadow-lg rounded-2xl max-w-64 lg:mx-0">
                 <div class="h-24">
                     <img class="mx-auto" src="{{ asset('/storage/img/blue-jaguar.png') }}" alt="">
                 </div>
                 <div class="mt-7">
                     <p class="font-poppins font-medium text-base text-[#262626]">Jaguar XE L P250</p>
-                    <div class="flex justify-start space-x-2 items-center mt-2">
+                    <div class="flex items-center justify-start mt-2 space-x-2">
                         <svg width="16" height="15" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M7.552.908a.5.5 0 0 1 .896 0l1.787 3.62a.5.5 0 0 0 .376.274l3.995.58a.5.5 0 0 1 .277.853l-2.89 2.818a.5.5 0 0 0-.144.442l.682 3.979a.5.5 0 0 1-.726.527l-3.572-1.879a.5.5 0 0 0-.466 0l-3.573 1.879a.5.5 0 0 1-.725-.527l.682-3.979a.5.5 0 0 0-.143-.442L1.117 6.235a.5.5 0 0 1 .277-.853l3.995-.58a.5.5 0 0 0 .376-.274L7.552.908Z"
                                 fill="#EFBF14" />
                         </svg>
-                        <p class="font-poppins text-xs">
+                        <p class="text-xs font-poppins">
                             <span class="font-medium">4.8</span>
                             <span class="text-[#808080]">(2.436 reviews)</span>
                         </p>
                     </div>
-                    <div class="flex justify-start space-x-8 mt-3">
-                        <span class="flex justify-center space-x-2 items-center">
+                    <div class="flex justify-start mt-3 space-x-8">
+                        <span class="flex items-center justify-center space-x-2">
                             <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M10 10a4.167 4.167 0 1 0 0-8.333A4.167 4.167 0 0 0 10 10ZM17.159 18.333c0-3.225-3.209-5.833-7.159-5.833-3.95 0-7.158 2.608-7.158 5.833"
@@ -293,7 +293,7 @@
                             </svg>
                             <p class="font-poppins text-xs text-[#959595]">4 Passangers</p>
                         </span>
-                        <span class="flex justify-center space-x-2 items-center">
+                        <span class="flex items-center justify-center space-x-2">
                             <svg width="18" height="15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M8.77.333h.463l.128.025a1.92 1.92 0 0 1 1.552 2.17c-.11.71-.517 1.207-1.177 1.496-.061.027-.083.06-.083.126.002.82.001 1.64.001 2.46 0 .1.003.103.106.103h3.749a1.264 1.264 0 0 0 1.248-1.248c-.003-.43-.003-.861.001-1.292.001-.085-.027-.126-.105-.159a1.906 1.906 0 0 1-1.168-1.894c.048-.614.329-1.096.828-1.453.262-.188.56-.288.877-.334h.447l.03.009c.53.075.96.326 1.287.75.213.275.33.591.38.934v.461c-.002.01-.006.02-.007.03-.123.723-.525 1.226-1.199 1.515-.055.024-.07.057-.07.112.003.326.004.651 0 .977-.001.202.01.404-.012.607a2.497 2.497 0 0 1-.688 1.479 2.525 2.525 0 0 1-1.886.807c-1.23.005-2.459.001-3.688.001-.13 0-.13 0-.13.133 0 .8.002 1.6-.001 2.4 0 .09.027.133.112.169a1.902 1.902 0 0 1 1.157 1.958c-.083.698-.444 1.205-1.065 1.53-.2.105-.417.158-.64.19h-.431l-.129-.023c-1.017-.178-1.728-1.152-1.569-2.164.112-.708.51-1.207 1.166-1.497.073-.033.097-.07.096-.149-.003-.808-.001-1.616-.001-2.423 0-.123 0-.124-.124-.124H3.372c-.126 0-.126 0-.126.123 0 .805.001 1.61-.002 2.415 0 .084.025.127.104.161.794.343 1.257 1.117 1.163 1.97-.07.634-.392 1.119-.937 1.453a2.017 2.017 0 0 1-.76.259h-.448c-.013-.003-.025-.008-.037-.01a1.913 1.913 0 0 1-1.28-.748 1.948 1.948 0 0 1-.381-.935v-.461l.01-.038c.122-.716.522-1.216 1.188-1.504.066-.028.078-.067.078-.13V4.159c0-.074-.024-.107-.092-.135a1.915 1.915 0 0 1-.94-.82 2.038 2.038 0 0 1-.244-.716v-.461l.01-.053A1.91 1.91 0 0 1 1.561.621a2.01 2.01 0 0 1 .804-.288h.448l.136.025a1.916 1.916 0 0 1 1.56 2.114c-.09.73-.495 1.244-1.168 1.545-.073.033-.098.071-.097.15.002.81.001 1.62.001 2.43 0 .115.002.116.116.116h4.875c.112 0 .112 0 .112-.11 0-.81-.001-1.62.002-2.43 0-.086-.028-.126-.106-.159a1.9 1.9 0 0 1-1.163-1.962c.073-.654.405-1.144.97-1.479.222-.13.466-.199.719-.24Z"
@@ -302,8 +302,8 @@
                             <p class="font-poppins text-xs text-[#959595]">Auto</p>
                         </span>
                     </div>
-                    <div class="flex justify-start space-x-4 mt-2">
-                        <span class="flex justify-center space-x-2 items-center">
+                    <div class="flex justify-start mt-2 space-x-4">
+                        <span class="flex items-center justify-center space-x-2">
                             <svg class="ms-0.5" width="16" height="18" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -312,7 +312,7 @@
                             </svg>
                             <p class="font-poppins text-xs text-[#959595]">Air Conditioning</p>
                         </span>
-                        <span class="flex justify-center space-x-2 items-center">
+                        <span class="flex items-center justify-center space-x-2">
                             <svg width="18" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M8.417 15.633H1.749c-.234 0-.466-.02-.682-.119-.256-.116-.398-.301-.397-.6.004-2.325.008-4.65-.002-6.974-.002-.522.153-.983.414-1.419.219-.365.508-.674.804-.976 1.156-1.182 2.489-2.123 3.949-2.89.894-.469 1.822-.856 2.78-1.174a21.371 21.371 0 0 1 3.28-.8c.688-.112 1.38-.193 2.074-.247a27.59 27.59 0 0 1 2.713-.066c.411.009.695.365.648.775-.056.482-.096.966-.144 1.45l-.139 1.396-.136 1.428c-.044.46-.09.918-.135 1.376-.038.396-.078.791-.117 1.187l-.141 1.439-.134 1.375-.14 1.418c-.039.389-.074.777-.114 1.166-.055.528-.086 1.06-.17 1.584-.07.44-.366.671-.811.671H8.417ZM3.049 7.87c.025.034.062.034.094.04.27.059.538.091.816.07a2.118 2.118 0 0 0 1.477-.725.231.231 0 0 1 .192-.083l6.71.001c1.074 0 2.148-.001 3.222.002.104 0 .138-.028.144-.135.013-.25.043-.498.066-.746a751.081 751.081 0 0 0 .213-2.397c.04-.462.08-.925.117-1.387.026-.333.046-.667.075-1 .015-.17.01-.182-.16-.184a20.071 20.071 0 0 0-1.783.057 22.602 22.602 0 0 0-4.096.685 18.412 18.412 0 0 0-3.547 1.32c-.906.454-1.76.993-2.55 1.629-.165.132-.324.272-.482.412-.095.084-.092.086.012.15.045.027.09.055.132.086.471.353.698.833.739 1.412.007.105-.043.172-.113.236a2.048 2.048 0 0 1-.858.46c-.137.037-.278.064-.42.097ZM8.4 14.526h6.487c.046 0 .093 0 .136-.01.098-.022.173-.107.166-.18-.008-.087-.083-.14-.202-.143H1.94c-.046 0-.092-.002-.137.003-.088.01-.142.06-.15.15-.009.091.042.147.125.17.043.012.09.01.136.01H8.4Zm5.369-5.973c-.324 0-.648-.002-.971 0-.244 0-.42.163-.426.389-.006.215.168.399.406.401.654.006 1.309.006 1.963 0 .246-.002.413-.182.407-.408-.006-.223-.184-.382-.43-.382h-.95Z"
@@ -331,7 +331,7 @@
                     </div>
                 </div>
                 <button type="button"
-                    class="mt-4 text-white bg-primary font-poppins font-medium rounded-lg text-sm px-5 py-3 justify-center inline-flex items-center w-full">
+                    class="inline-flex items-center justify-center w-full px-5 py-3 mt-4 text-sm font-medium text-white rounded-lg bg-primary font-poppins">
                     Rent Now
                     <svg class="ms-1" width="20" height="20" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -341,25 +341,25 @@
                     </svg>
                 </button>
             </div>
-            <div class="shadow-lg bg-white rounded-2xl px-5 py-10 max-w-64 mx-auto md:mx-0">
+            <div class="px-5 py-10 mx-auto bg-white shadow-lg rounded-2xl max-w-64 lg:mx-0">
                 <div class="h-24">
                     <img class="mx-auto" src="{{ asset('/storage/img/white-audi.png') }}" alt="">
                 </div>
                 <div class="mt-7">
                     <p class="font-poppins font-medium text-base text-[#262626]">Audi R8</p>
-                    <div class="flex justify-start space-x-2 items-center mt-2">
+                    <div class="flex items-center justify-start mt-2 space-x-2">
                         <svg width="16" height="15" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M7.552.908a.5.5 0 0 1 .896 0l1.787 3.62a.5.5 0 0 0 .376.274l3.995.58a.5.5 0 0 1 .277.853l-2.89 2.818a.5.5 0 0 0-.144.442l.682 3.979a.5.5 0 0 1-.726.527l-3.572-1.879a.5.5 0 0 0-.466 0l-3.573 1.879a.5.5 0 0 1-.725-.527l.682-3.979a.5.5 0 0 0-.143-.442L1.117 6.235a.5.5 0 0 1 .277-.853l3.995-.58a.5.5 0 0 0 .376-.274L7.552.908Z"
                                 fill="#EFBF14" />
                         </svg>
-                        <p class="font-poppins text-xs">
+                        <p class="text-xs font-poppins">
                             <span class="font-medium">4.6</span>
                             <span class="text-[#808080]">(1.936 reviews)</span>
                         </p>
                     </div>
-                    <div class="flex justify-start space-x-8 mt-3">
-                        <span class="flex justify-center space-x-2 items-center">
+                    <div class="flex justify-start mt-3 space-x-8">
+                        <span class="flex items-center justify-center space-x-2">
                             <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M10 10a4.167 4.167 0 1 0 0-8.333A4.167 4.167 0 0 0 10 10ZM17.159 18.333c0-3.225-3.209-5.833-7.159-5.833-3.95 0-7.158 2.608-7.158 5.833"
@@ -368,7 +368,7 @@
                             </svg>
                             <p class="font-poppins text-xs text-[#959595]">2 Passangers</p>
                         </span>
-                        <span class="flex justify-center space-x-2 items-center">
+                        <span class="flex items-center justify-center space-x-2">
                             <svg width="18" height="15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M8.77.333h.463l.128.025a1.92 1.92 0 0 1 1.552 2.17c-.11.71-.517 1.207-1.177 1.496-.061.027-.083.06-.083.126.002.82.001 1.64.001 2.46 0 .1.003.103.106.103h3.749a1.264 1.264 0 0 0 1.248-1.248c-.003-.43-.003-.861.001-1.292.001-.085-.027-.126-.105-.159a1.906 1.906 0 0 1-1.168-1.894c.048-.614.329-1.096.828-1.453.262-.188.56-.288.877-.334h.447l.03.009c.53.075.96.326 1.287.75.213.275.33.591.38.934v.461c-.002.01-.006.02-.007.03-.123.723-.525 1.226-1.199 1.515-.055.024-.07.057-.07.112.003.326.004.651 0 .977-.001.202.01.404-.012.607a2.497 2.497 0 0 1-.688 1.479 2.525 2.525 0 0 1-1.886.807c-1.23.005-2.459.001-3.688.001-.13 0-.13 0-.13.133 0 .8.002 1.6-.001 2.4 0 .09.027.133.112.169a1.902 1.902 0 0 1 1.157 1.958c-.083.698-.444 1.205-1.065 1.53-.2.105-.417.158-.64.19h-.431l-.129-.023c-1.017-.178-1.728-1.152-1.569-2.164.112-.708.51-1.207 1.166-1.497.073-.033.097-.07.096-.149-.003-.808-.001-1.616-.001-2.423 0-.123 0-.124-.124-.124H3.372c-.126 0-.126 0-.126.123 0 .805.001 1.61-.002 2.415 0 .084.025.127.104.161.794.343 1.257 1.117 1.163 1.97-.07.634-.392 1.119-.937 1.453a2.017 2.017 0 0 1-.76.259h-.448c-.013-.003-.025-.008-.037-.01a1.913 1.913 0 0 1-1.28-.748 1.948 1.948 0 0 1-.381-.935v-.461l.01-.038c.122-.716.522-1.216 1.188-1.504.066-.028.078-.067.078-.13V4.159c0-.074-.024-.107-.092-.135a1.915 1.915 0 0 1-.94-.82 2.038 2.038 0 0 1-.244-.716v-.461l.01-.053A1.91 1.91 0 0 1 1.561.621a2.01 2.01 0 0 1 .804-.288h.448l.136.025a1.916 1.916 0 0 1 1.56 2.114c-.09.73-.495 1.244-1.168 1.545-.073.033-.098.071-.097.15.002.81.001 1.62.001 2.43 0 .115.002.116.116.116h4.875c.112 0 .112 0 .112-.11 0-.81-.001-1.62.002-2.43 0-.086-.028-.126-.106-.159a1.9 1.9 0 0 1-1.163-1.962c.073-.654.405-1.144.97-1.479.222-.13.466-.199.719-.24Z"
@@ -377,8 +377,8 @@
                             <p class="font-poppins text-xs text-[#959595]">Auto</p>
                         </span>
                     </div>
-                    <div class="flex justify-start space-x-4 mt-2">
-                        <span class="flex justify-center space-x-2 items-center">
+                    <div class="flex justify-start mt-2 space-x-4">
+                        <span class="flex items-center justify-center space-x-2">
                             <svg class="ms-0.5" width="16" height="18" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -387,7 +387,7 @@
                             </svg>
                             <p class="font-poppins text-xs text-[#959595]">Air Conditioning</p>
                         </span>
-                        <span class="flex justify-center space-x-2 items-center">
+                        <span class="flex items-center justify-center space-x-2">
                             <svg width="18" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M8.417 15.633H1.749c-.234 0-.466-.02-.682-.119-.256-.116-.398-.301-.397-.6.004-2.325.008-4.65-.002-6.974-.002-.522.153-.983.414-1.419.219-.365.508-.674.804-.976 1.156-1.182 2.489-2.123 3.949-2.89.894-.469 1.822-.856 2.78-1.174a21.371 21.371 0 0 1 3.28-.8c.688-.112 1.38-.193 2.074-.247a27.59 27.59 0 0 1 2.713-.066c.411.009.695.365.648.775-.056.482-.096.966-.144 1.45l-.139 1.396-.136 1.428c-.044.46-.09.918-.135 1.376-.038.396-.078.791-.117 1.187l-.141 1.439-.134 1.375-.14 1.418c-.039.389-.074.777-.114 1.166-.055.528-.086 1.06-.17 1.584-.07.44-.366.671-.811.671H8.417ZM3.049 7.87c.025.034.062.034.094.04.27.059.538.091.816.07a2.118 2.118 0 0 0 1.477-.725.231.231 0 0 1 .192-.083l6.71.001c1.074 0 2.148-.001 3.222.002.104 0 .138-.028.144-.135.013-.25.043-.498.066-.746a751.081 751.081 0 0 0 .213-2.397c.04-.462.08-.925.117-1.387.026-.333.046-.667.075-1 .015-.17.01-.182-.16-.184a20.071 20.071 0 0 0-1.783.057 22.602 22.602 0 0 0-4.096.685 18.412 18.412 0 0 0-3.547 1.32c-.906.454-1.76.993-2.55 1.629-.165.132-.324.272-.482.412-.095.084-.092.086.012.15.045.027.09.055.132.086.471.353.698.833.739 1.412.007.105-.043.172-.113.236a2.048 2.048 0 0 1-.858.46c-.137.037-.278.064-.42.097ZM8.4 14.526h6.487c.046 0 .093 0 .136-.01.098-.022.173-.107.166-.18-.008-.087-.083-.14-.202-.143H1.94c-.046 0-.092-.002-.137.003-.088.01-.142.06-.15.15-.009.091.042.147.125.17.043.012.09.01.136.01H8.4Zm5.369-5.973c-.324 0-.648-.002-.971 0-.244 0-.42.163-.426.389-.006.215.168.399.406.401.654.006 1.309.006 1.963 0 .246-.002.413-.182.407-.408-.006-.223-.184-.382-.43-.382h-.95Z"
@@ -406,7 +406,7 @@
                     </div>
                 </div>
                 <button type="button"
-                    class="mt-4 text-white bg-primary font-poppins font-medium rounded-lg text-sm px-5 py-3 justify-center inline-flex items-center w-full">
+                    class="inline-flex items-center justify-center w-full px-5 py-3 mt-4 text-sm font-medium text-white rounded-lg bg-primary font-poppins">
                     Rent Now
                     <svg class="ms-1" width="20" height="20" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -416,25 +416,25 @@
                     </svg>
                 </button>
             </div>
-            <div class="shadow-lg bg-white rounded-2xl px-5 py-10 max-w-64 mx-auto md:mx-0">
+            <div class="px-5 py-10 mx-auto bg-white shadow-lg rounded-2xl max-w-64 lg:mx-0">
                 <div class="h-24">
                     <img class="mx-auto" src="{{ asset('/storage/img/green-bmw.png') }}" alt="">
                 </div>
                 <div class="mt-7">
                     <p class="font-poppins font-medium text-base text-[#262626]">BMW M3</p>
-                    <div class="flex justify-start space-x-2 items-center mt-2">
+                    <div class="flex items-center justify-start mt-2 space-x-2">
                         <svg width="16" height="15" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M7.552.908a.5.5 0 0 1 .896 0l1.787 3.62a.5.5 0 0 0 .376.274l3.995.58a.5.5 0 0 1 .277.853l-2.89 2.818a.5.5 0 0 0-.144.442l.682 3.979a.5.5 0 0 1-.726.527l-3.572-1.879a.5.5 0 0 0-.466 0l-3.573 1.879a.5.5 0 0 1-.725-.527l.682-3.979a.5.5 0 0 0-.143-.442L1.117 6.235a.5.5 0 0 1 .277-.853l3.995-.58a.5.5 0 0 0 .376-.274L7.552.908Z"
                                 fill="#EFBF14" />
                         </svg>
-                        <p class="font-poppins text-xs">
+                        <p class="text-xs font-poppins">
                             <span class="font-medium">4.5</span>
                             <span class="text-[#808080]">(2.036 reviews)</span>
                         </p>
                     </div>
-                    <div class="flex justify-start space-x-8 mt-3">
-                        <span class="flex justify-center space-x-2 items-center">
+                    <div class="flex justify-start mt-3 space-x-8">
+                        <span class="flex items-center justify-center space-x-2">
                             <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M10 10a4.167 4.167 0 1 0 0-8.333A4.167 4.167 0 0 0 10 10ZM17.159 18.333c0-3.225-3.209-5.833-7.159-5.833-3.95 0-7.158 2.608-7.158 5.833"
@@ -443,7 +443,7 @@
                             </svg>
                             <p class="font-poppins text-xs text-[#959595]">4 Passangers</p>
                         </span>
-                        <span class="flex justify-center space-x-2 items-center">
+                        <span class="flex items-center justify-center space-x-2">
                             <svg width="18" height="15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M8.77.333h.463l.128.025a1.92 1.92 0 0 1 1.552 2.17c-.11.71-.517 1.207-1.177 1.496-.061.027-.083.06-.083.126.002.82.001 1.64.001 2.46 0 .1.003.103.106.103h3.749a1.264 1.264 0 0 0 1.248-1.248c-.003-.43-.003-.861.001-1.292.001-.085-.027-.126-.105-.159a1.906 1.906 0 0 1-1.168-1.894c.048-.614.329-1.096.828-1.453.262-.188.56-.288.877-.334h.447l.03.009c.53.075.96.326 1.287.75.213.275.33.591.38.934v.461c-.002.01-.006.02-.007.03-.123.723-.525 1.226-1.199 1.515-.055.024-.07.057-.07.112.003.326.004.651 0 .977-.001.202.01.404-.012.607a2.497 2.497 0 0 1-.688 1.479 2.525 2.525 0 0 1-1.886.807c-1.23.005-2.459.001-3.688.001-.13 0-.13 0-.13.133 0 .8.002 1.6-.001 2.4 0 .09.027.133.112.169a1.902 1.902 0 0 1 1.157 1.958c-.083.698-.444 1.205-1.065 1.53-.2.105-.417.158-.64.19h-.431l-.129-.023c-1.017-.178-1.728-1.152-1.569-2.164.112-.708.51-1.207 1.166-1.497.073-.033.097-.07.096-.149-.003-.808-.001-1.616-.001-2.423 0-.123 0-.124-.124-.124H3.372c-.126 0-.126 0-.126.123 0 .805.001 1.61-.002 2.415 0 .084.025.127.104.161.794.343 1.257 1.117 1.163 1.97-.07.634-.392 1.119-.937 1.453a2.017 2.017 0 0 1-.76.259h-.448c-.013-.003-.025-.008-.037-.01a1.913 1.913 0 0 1-1.28-.748 1.948 1.948 0 0 1-.381-.935v-.461l.01-.038c.122-.716.522-1.216 1.188-1.504.066-.028.078-.067.078-.13V4.159c0-.074-.024-.107-.092-.135a1.915 1.915 0 0 1-.94-.82 2.038 2.038 0 0 1-.244-.716v-.461l.01-.053A1.91 1.91 0 0 1 1.561.621a2.01 2.01 0 0 1 .804-.288h.448l.136.025a1.916 1.916 0 0 1 1.56 2.114c-.09.73-.495 1.244-1.168 1.545-.073.033-.098.071-.097.15.002.81.001 1.62.001 2.43 0 .115.002.116.116.116h4.875c.112 0 .112 0 .112-.11 0-.81-.001-1.62.002-2.43 0-.086-.028-.126-.106-.159a1.9 1.9 0 0 1-1.163-1.962c.073-.654.405-1.144.97-1.479.222-.13.466-.199.719-.24Z"
@@ -452,8 +452,8 @@
                             <p class="font-poppins text-xs text-[#959595]">Auto</p>
                         </span>
                     </div>
-                    <div class="flex justify-start space-x-4 mt-2">
-                        <span class="flex justify-center space-x-2 items-center">
+                    <div class="flex justify-start mt-2 space-x-4">
+                        <span class="flex items-center justify-center space-x-2">
                             <svg class="ms-0.5" width="16" height="18" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -462,7 +462,7 @@
                             </svg>
                             <p class="font-poppins text-xs text-[#959595]">Air Conditioning</p>
                         </span>
-                        <span class="flex justify-center space-x-2 items-center">
+                        <span class="flex items-center justify-center space-x-2">
                             <svg width="18" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M8.417 15.633H1.749c-.234 0-.466-.02-.682-.119-.256-.116-.398-.301-.397-.6.004-2.325.008-4.65-.002-6.974-.002-.522.153-.983.414-1.419.219-.365.508-.674.804-.976 1.156-1.182 2.489-2.123 3.949-2.89.894-.469 1.822-.856 2.78-1.174a21.371 21.371 0 0 1 3.28-.8c.688-.112 1.38-.193 2.074-.247a27.59 27.59 0 0 1 2.713-.066c.411.009.695.365.648.775-.056.482-.096.966-.144 1.45l-.139 1.396-.136 1.428c-.044.46-.09.918-.135 1.376-.038.396-.078.791-.117 1.187l-.141 1.439-.134 1.375-.14 1.418c-.039.389-.074.777-.114 1.166-.055.528-.086 1.06-.17 1.584-.07.44-.366.671-.811.671H8.417ZM3.049 7.87c.025.034.062.034.094.04.27.059.538.091.816.07a2.118 2.118 0 0 0 1.477-.725.231.231 0 0 1 .192-.083l6.71.001c1.074 0 2.148-.001 3.222.002.104 0 .138-.028.144-.135.013-.25.043-.498.066-.746a751.081 751.081 0 0 0 .213-2.397c.04-.462.08-.925.117-1.387.026-.333.046-.667.075-1 .015-.17.01-.182-.16-.184a20.071 20.071 0 0 0-1.783.057 22.602 22.602 0 0 0-4.096.685 18.412 18.412 0 0 0-3.547 1.32c-.906.454-1.76.993-2.55 1.629-.165.132-.324.272-.482.412-.095.084-.092.086.012.15.045.027.09.055.132.086.471.353.698.833.739 1.412.007.105-.043.172-.113.236a2.048 2.048 0 0 1-.858.46c-.137.037-.278.064-.42.097ZM8.4 14.526h6.487c.046 0 .093 0 .136-.01.098-.022.173-.107.166-.18-.008-.087-.083-.14-.202-.143H1.94c-.046 0-.092-.002-.137.003-.088.01-.142.06-.15.15-.009.091.042.147.125.17.043.012.09.01.136.01H8.4Zm5.369-5.973c-.324 0-.648-.002-.971 0-.244 0-.42.163-.426.389-.006.215.168.399.406.401.654.006 1.309.006 1.963 0 .246-.002.413-.182.407-.408-.006-.223-.184-.382-.43-.382h-.95Z"
@@ -481,7 +481,7 @@
                     </div>
                 </div>
                 <button type="button"
-                    class="mt-4 text-white bg-primary font-poppins font-medium rounded-lg text-sm px-5 py-3 justify-center inline-flex items-center w-full">
+                    class="inline-flex items-center justify-center w-full px-5 py-3 mt-4 text-sm font-medium text-white rounded-lg bg-primary font-poppins">
                     Rent Now
                     <svg class="ms-1" width="20" height="20" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -491,25 +491,25 @@
                     </svg>
                 </button>
             </div>
-            <div class="shadow-lg bg-white rounded-2xl px-5 py-10 max-w-64 mx-auto md:mx-0">
+            <div class="px-5 py-10 mx-auto bg-white shadow-lg rounded-2xl max-w-64 lg:mx-0">
                 <div class="h-24">
                     <img class="mx-auto" src="{{ asset('/storage/img/yellow-lambo.png') }}" alt="">
                 </div>
                 <div class="mt-7">
                     <p class="font-poppins font-medium text-base text-[#262626]">Lamborghini Huracan</p>
-                    <div class="flex justify-start space-x-2 items-center mt-2">
+                    <div class="flex items-center justify-start mt-2 space-x-2">
                         <svg width="16" height="15" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M7.552.908a.5.5 0 0 1 .896 0l1.787 3.62a.5.5 0 0 0 .376.274l3.995.58a.5.5 0 0 1 .277.853l-2.89 2.818a.5.5 0 0 0-.144.442l.682 3.979a.5.5 0 0 1-.726.527l-3.572-1.879a.5.5 0 0 0-.466 0l-3.573 1.879a.5.5 0 0 1-.725-.527l.682-3.979a.5.5 0 0 0-.143-.442L1.117 6.235a.5.5 0 0 1 .277-.853l3.995-.58a.5.5 0 0 0 .376-.274L7.552.908Z"
                                 fill="#EFBF14" />
                         </svg>
-                        <p class="font-poppins text-xs">
+                        <p class="text-xs font-poppins">
                             <span class="font-medium">4.3</span>
                             <span class="text-[#808080]">(2.236 reviews)</span>
                         </p>
                     </div>
-                    <div class="flex justify-start space-x-8 mt-3">
-                        <span class="flex justify-center space-x-2 items-center">
+                    <div class="flex justify-start mt-3 space-x-8">
+                        <span class="flex items-center justify-center space-x-2">
                             <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M10 10a4.167 4.167 0 1 0 0-8.333A4.167 4.167 0 0 0 10 10ZM17.159 18.333c0-3.225-3.209-5.833-7.159-5.833-3.95 0-7.158 2.608-7.158 5.833"
@@ -518,7 +518,7 @@
                             </svg>
                             <p class="font-poppins text-xs text-[#959595]">2 Passangers</p>
                         </span>
-                        <span class="flex justify-center space-x-2 items-center">
+                        <span class="flex items-center justify-center space-x-2">
                             <svg width="18" height="15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M8.77.333h.463l.128.025a1.92 1.92 0 0 1 1.552 2.17c-.11.71-.517 1.207-1.177 1.496-.061.027-.083.06-.083.126.002.82.001 1.64.001 2.46 0 .1.003.103.106.103h3.749a1.264 1.264 0 0 0 1.248-1.248c-.003-.43-.003-.861.001-1.292.001-.085-.027-.126-.105-.159a1.906 1.906 0 0 1-1.168-1.894c.048-.614.329-1.096.828-1.453.262-.188.56-.288.877-.334h.447l.03.009c.53.075.96.326 1.287.75.213.275.33.591.38.934v.461c-.002.01-.006.02-.007.03-.123.723-.525 1.226-1.199 1.515-.055.024-.07.057-.07.112.003.326.004.651 0 .977-.001.202.01.404-.012.607a2.497 2.497 0 0 1-.688 1.479 2.525 2.525 0 0 1-1.886.807c-1.23.005-2.459.001-3.688.001-.13 0-.13 0-.13.133 0 .8.002 1.6-.001 2.4 0 .09.027.133.112.169a1.902 1.902 0 0 1 1.157 1.958c-.083.698-.444 1.205-1.065 1.53-.2.105-.417.158-.64.19h-.431l-.129-.023c-1.017-.178-1.728-1.152-1.569-2.164.112-.708.51-1.207 1.166-1.497.073-.033.097-.07.096-.149-.003-.808-.001-1.616-.001-2.423 0-.123 0-.124-.124-.124H3.372c-.126 0-.126 0-.126.123 0 .805.001 1.61-.002 2.415 0 .084.025.127.104.161.794.343 1.257 1.117 1.163 1.97-.07.634-.392 1.119-.937 1.453a2.017 2.017 0 0 1-.76.259h-.448c-.013-.003-.025-.008-.037-.01a1.913 1.913 0 0 1-1.28-.748 1.948 1.948 0 0 1-.381-.935v-.461l.01-.038c.122-.716.522-1.216 1.188-1.504.066-.028.078-.067.078-.13V4.159c0-.074-.024-.107-.092-.135a1.915 1.915 0 0 1-.94-.82 2.038 2.038 0 0 1-.244-.716v-.461l.01-.053A1.91 1.91 0 0 1 1.561.621a2.01 2.01 0 0 1 .804-.288h.448l.136.025a1.916 1.916 0 0 1 1.56 2.114c-.09.73-.495 1.244-1.168 1.545-.073.033-.098.071-.097.15.002.81.001 1.62.001 2.43 0 .115.002.116.116.116h4.875c.112 0 .112 0 .112-.11 0-.81-.001-1.62.002-2.43 0-.086-.028-.126-.106-.159a1.9 1.9 0 0 1-1.163-1.962c.073-.654.405-1.144.97-1.479.222-.13.466-.199.719-.24Z"
@@ -527,8 +527,8 @@
                             <p class="font-poppins text-xs text-[#959595]">Auto</p>
                         </span>
                     </div>
-                    <div class="flex justify-start space-x-4 mt-2">
-                        <span class="flex justify-center space-x-2 items-center">
+                    <div class="flex justify-start mt-2 space-x-4">
+                        <span class="flex items-center justify-center space-x-2">
                             <svg class="ms-0.5" width="16" height="18" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -537,7 +537,7 @@
                             </svg>
                             <p class="font-poppins text-xs text-[#959595]">Air Conditioning</p>
                         </span>
-                        <span class="flex justify-center space-x-2 items-center">
+                        <span class="flex items-center justify-center space-x-2">
                             <svg width="18" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M8.417 15.633H1.749c-.234 0-.466-.02-.682-.119-.256-.116-.398-.301-.397-.6.004-2.325.008-4.65-.002-6.974-.002-.522.153-.983.414-1.419.219-.365.508-.674.804-.976 1.156-1.182 2.489-2.123 3.949-2.89.894-.469 1.822-.856 2.78-1.174a21.371 21.371 0 0 1 3.28-.8c.688-.112 1.38-.193 2.074-.247a27.59 27.59 0 0 1 2.713-.066c.411.009.695.365.648.775-.056.482-.096.966-.144 1.45l-.139 1.396-.136 1.428c-.044.46-.09.918-.135 1.376-.038.396-.078.791-.117 1.187l-.141 1.439-.134 1.375-.14 1.418c-.039.389-.074.777-.114 1.166-.055.528-.086 1.06-.17 1.584-.07.44-.366.671-.811.671H8.417ZM3.049 7.87c.025.034.062.034.094.04.27.059.538.091.816.07a2.118 2.118 0 0 0 1.477-.725.231.231 0 0 1 .192-.083l6.71.001c1.074 0 2.148-.001 3.222.002.104 0 .138-.028.144-.135.013-.25.043-.498.066-.746a751.081 751.081 0 0 0 .213-2.397c.04-.462.08-.925.117-1.387.026-.333.046-.667.075-1 .015-.17.01-.182-.16-.184a20.071 20.071 0 0 0-1.783.057 22.602 22.602 0 0 0-4.096.685 18.412 18.412 0 0 0-3.547 1.32c-.906.454-1.76.993-2.55 1.629-.165.132-.324.272-.482.412-.095.084-.092.086.012.15.045.027.09.055.132.086.471.353.698.833.739 1.412.007.105-.043.172-.113.236a2.048 2.048 0 0 1-.858.46c-.137.037-.278.064-.42.097ZM8.4 14.526h6.487c.046 0 .093 0 .136-.01.098-.022.173-.107.166-.18-.008-.087-.083-.14-.202-.143H1.94c-.046 0-.092-.002-.137.003-.088.01-.142.06-.15.15-.009.091.042.147.125.17.043.012.09.01.136.01H8.4Zm5.369-5.973c-.324 0-.648-.002-.971 0-.244 0-.42.163-.426.389-.006.215.168.399.406.401.654.006 1.309.006 1.963 0 .246-.002.413-.182.407-.408-.006-.223-.184-.382-.43-.382h-.95Z"
@@ -556,7 +556,7 @@
                     </div>
                 </div>
                 <button type="button"
-                    class="mt-4 text-white bg-primary font-poppins font-medium rounded-lg text-sm px-5 py-3 justify-center inline-flex items-center w-full">
+                    class="inline-flex items-center justify-center w-full px-5 py-3 mt-4 text-sm font-medium text-white rounded-lg bg-primary font-poppins">
                     Rent Now
                     <svg class="ms-1" width="20" height="20" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -578,78 +578,123 @@
     </section>
 
     <section
-        class="mt-28 py-28 bg-[url('/storage/app/public/img/what-people-say.png')] bg-no-repeat bg-cover h-[864px] overflow-x-hidden">
+        class="mt-28 py-14 md:py-28 bg-[url('/storage/app/public/img/what-people-say.png')] bg-no-repeat bg-cover h-[864px] overflow-x-hidden">
         <p
             class="mx-auto px-10 py-2.5 rounded-lg bg-opacity-10 bg-primary font-poppins font-medium text-sm text-primary w-fit">
             TESTIMONIALS</p>
         <h2 class="mx-auto mt-5 text-2xl font-medium text-center lg:text-4xl w-fit font-poppins text-dark-gray">What
             people say about us?
         </h2>
-        <div class="mt-14 grid gird-cols-1 lg:grid-cols-3 gap-10 w-[2462px] lg:-ms-[500px]">
-            <div class="inline-flex rounded-3xl w-[794px] bg-white shadow-lg">
-                <img class="rounded-s-3xl w-1/2" src="{{ asset('/storage/img/bro.png') }}" alt="">
-                <div class="p-10">
+        <div class="mt-14 grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-10 md:w-[2462px] md:-ms-[500px]">
+            <div
+                class="inline-flex rounded-xl md:rounded-3xl w-[332px] h-[183px] md:h-full md:w-[794px] bg-white shadow-lg mx-auto md:mx-0">
+                <img class="w-1/2 rounded-xl md:rounded-s-3xl" src="{{ asset('/storage/img/bro.png') }}"
+                    alt="">
+                <div class="p-3 md:p-10">
                     <p class="font-poppins text-[#383838]">
-                        <span class="font-medium text-6xl">5.0</span>
-                        <span class="text-2xl">stars</span>
+                        <span class="text-xl font-medium md:text-6xl">5.0</span>
+                        <span class="text-lg md:text-2xl">stars</span>
                     </p>
-                    <svg class="mt-3" width="136" height="24" fill="none"
+                    <svg class="mt-1 md:mt-3" width="136" height="24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M11.327 1.363a.75.75 0 0 1 1.346 0l2.68 5.43a.75.75 0 0 0 .564.41l5.992.87a.75.75 0 0 1 .416 1.28l-4.336 4.226a.75.75 0 0 0-.216.664l1.024 5.967a.75.75 0 0 1-1.089.791l-5.359-2.818a.75.75 0 0 0-.698 0l-5.36 2.818a.75.75 0 0 1-1.088-.79l1.024-5.968a.75.75 0 0 0-.216-.664L1.676 9.353a.75.75 0 0 1 .415-1.28l5.992-.87a.75.75 0 0 0 .565-.41l2.68-5.43ZM39.327 1.363a.75.75 0 0 1 1.346 0l2.68 5.43a.75.75 0 0 0 .564.41l5.992.87a.75.75 0 0 1 .416 1.28l-4.336 4.226a.75.75 0 0 0-.216.664l1.023 5.967a.75.75 0 0 1-1.088.791l-5.359-2.818a.75.75 0 0 0-.698 0l-5.36 2.818a.75.75 0 0 1-1.087-.79l1.023-5.968a.75.75 0 0 0-.216-.664l-4.336-4.226a.75.75 0 0 1 .416-1.28l5.992-.87a.75.75 0 0 0 .565-.41l2.68-5.43ZM67.327 1.363a.75.75 0 0 1 1.346 0l2.68 5.43a.75.75 0 0 0 .564.41l5.992.87a.75.75 0 0 1 .415 1.28l-4.335 4.226a.75.75 0 0 0-.216.664l1.023 5.967a.75.75 0 0 1-1.088.791l-5.359-2.818a.75.75 0 0 0-.698 0l-5.36 2.818a.75.75 0 0 1-1.087-.79l1.023-5.968a.75.75 0 0 0-.216-.664l-4.336-4.226a.75.75 0 0 1 .416-1.28l5.992-.87a.75.75 0 0 0 .565-.41l2.68-5.43ZM95.327 1.363a.75.75 0 0 1 1.346 0l2.68 5.43a.75.75 0 0 0 .564.41l5.992.87a.75.75 0 0 1 .415 1.28l-4.335 4.226a.749.749 0 0 0-.216.664l1.024 5.967a.75.75 0 0 1-1.089.791l-5.359-2.818a.75.75 0 0 0-.698 0l-5.36 2.818a.75.75 0 0 1-1.087-.79l1.023-5.968a.75.75 0 0 0-.216-.664l-4.335-4.226a.75.75 0 0 1 .415-1.28l5.992-.87a.75.75 0 0 0 .565-.41l2.68-5.43ZM123.327 1.363a.75.75 0 0 1 1.346 0l2.679 5.43a.75.75 0 0 0 .565.41l5.992.87a.75.75 0 0 1 .415 1.28l-4.335 4.226a.749.749 0 0 0-.216.664l1.024 5.967a.75.75 0 0 1-1.089.791l-5.359-2.818a.75.75 0 0 0-.698 0l-5.359 2.818a.75.75 0 0 1-1.089-.79l1.024-5.968a.749.749 0 0 0-.216-.664l-4.335-4.226a.75.75 0 0 1 .415-1.28l5.992-.87a.75.75 0 0 0 .565-.41l2.679-5.43Z"
                             fill="#EFBF14" />
                     </svg>
-                    <p class="mt-12 font-poppins text-[#282828] text-base lg:text-lg">“I feel very secure when using
+                    <p class="mt-6 md:mt-12 font-poppins text-[#282828] text-lg hidden md:block">“I feel very secure
+                        when
+                        using
                         caretalls
                         services. Your customer care team is
                         very enthusiastic
                         and the driver is always on time.”</p>
-                    <p class="mt-12 font-poppins font-medium text-lg lg:text-2xl text-[#252525]">Charlie Johnson</p>
-                    <p class="mt-1 font-poppins text-xs lg:text-sm text-[#838383]">From New York, US</p>
+                    <p class="mt-3 md:mt-12 font-poppins font-medium text-base md:text-2xl text-[#252525]">Charlie
+                        Johnson</p>
+                    <p class="mt-1 font-poppins text-xs md:text-sm text-[#838383]">From New York, US</p>
                 </div>
             </div>
-            <div class="inline-flex rounded-3xl w-[794px] bg-white shadow-lg">
-                <img class="rounded-s-3xl w-1/2" src="{{ asset('/storage/img/bro.png') }}" alt="">
-                <div class="p-10">
+            <div
+                class="inline-flex rounded-xl md:rounded-3xl w-[332px] h-[183px] md:h-full md:w-[794px] bg-white shadow-lg mx-auto md:mx-0">
+                <img class="w-1/2 rounded-xl md:rounded-s-3xl" src="{{ asset('/storage/img/bro.png') }}"
+                    alt="">
+                <div class="p-3 md:p-10">
                     <p class="font-poppins text-[#383838]">
-                        <span class="font-medium text-6xl">5.0</span>
-                        <span class="text-2xl">stars</span>
+                        <span class="text-xl font-medium md:text-6xl">5.0</span>
+                        <span class="text-lg md:text-2xl">stars</span>
                     </p>
-                    <svg class="mt-3" width="136" height="24" fill="none"
+                    <svg class="mt-1 md:mt-3" width="136" height="24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M11.327 1.363a.75.75 0 0 1 1.346 0l2.68 5.43a.75.75 0 0 0 .564.41l5.992.87a.75.75 0 0 1 .416 1.28l-4.336 4.226a.75.75 0 0 0-.216.664l1.024 5.967a.75.75 0 0 1-1.089.791l-5.359-2.818a.75.75 0 0 0-.698 0l-5.36 2.818a.75.75 0 0 1-1.088-.79l1.024-5.968a.75.75 0 0 0-.216-.664L1.676 9.353a.75.75 0 0 1 .415-1.28l5.992-.87a.75.75 0 0 0 .565-.41l2.68-5.43ZM39.327 1.363a.75.75 0 0 1 1.346 0l2.68 5.43a.75.75 0 0 0 .564.41l5.992.87a.75.75 0 0 1 .416 1.28l-4.336 4.226a.75.75 0 0 0-.216.664l1.023 5.967a.75.75 0 0 1-1.088.791l-5.359-2.818a.75.75 0 0 0-.698 0l-5.36 2.818a.75.75 0 0 1-1.087-.79l1.023-5.968a.75.75 0 0 0-.216-.664l-4.336-4.226a.75.75 0 0 1 .416-1.28l5.992-.87a.75.75 0 0 0 .565-.41l2.68-5.43ZM67.327 1.363a.75.75 0 0 1 1.346 0l2.68 5.43a.75.75 0 0 0 .564.41l5.992.87a.75.75 0 0 1 .415 1.28l-4.335 4.226a.75.75 0 0 0-.216.664l1.023 5.967a.75.75 0 0 1-1.088.791l-5.359-2.818a.75.75 0 0 0-.698 0l-5.36 2.818a.75.75 0 0 1-1.087-.79l1.023-5.968a.75.75 0 0 0-.216-.664l-4.336-4.226a.75.75 0 0 1 .416-1.28l5.992-.87a.75.75 0 0 0 .565-.41l2.68-5.43ZM95.327 1.363a.75.75 0 0 1 1.346 0l2.68 5.43a.75.75 0 0 0 .564.41l5.992.87a.75.75 0 0 1 .415 1.28l-4.335 4.226a.749.749 0 0 0-.216.664l1.024 5.967a.75.75 0 0 1-1.089.791l-5.359-2.818a.75.75 0 0 0-.698 0l-5.36 2.818a.75.75 0 0 1-1.087-.79l1.023-5.968a.75.75 0 0 0-.216-.664l-4.335-4.226a.75.75 0 0 1 .415-1.28l5.992-.87a.75.75 0 0 0 .565-.41l2.68-5.43ZM123.327 1.363a.75.75 0 0 1 1.346 0l2.679 5.43a.75.75 0 0 0 .565.41l5.992.87a.75.75 0 0 1 .415 1.28l-4.335 4.226a.749.749 0 0 0-.216.664l1.024 5.967a.75.75 0 0 1-1.089.791l-5.359-2.818a.75.75 0 0 0-.698 0l-5.359 2.818a.75.75 0 0 1-1.089-.79l1.024-5.968a.749.749 0 0 0-.216-.664l-4.335-4.226a.75.75 0 0 1 .415-1.28l5.992-.87a.75.75 0 0 0 .565-.41l2.679-5.43Z"
                             fill="#EFBF14" />
                     </svg>
-                    <p class="mt-12 font-poppins text-[#282828] text-base lg:text-lg">“I feel very secure when using
+                    <p class="mt-6 md:mt-12 font-poppins text-[#282828] text-lg hidden md:block">“I feel very secure
+                        when
+                        using
                         caretalls
                         services. Your customer care team is
                         very enthusiastic
                         and the driver is always on time.”</p>
-                    <p class="mt-12 font-poppins font-medium text-lg lg:text-2xl text-[#252525]">Charlie Johnson</p>
-                    <p class="mt-1 font-poppins text-xs lg:text-sm text-[#838383]">From New York, US</p>
+                    <p class="mt-3 md:mt-12 font-poppins font-medium text-base md:text-2xl text-[#252525]">Charlie
+                        Johnson</p>
+                    <p class="mt-1 font-poppins text-xs md:text-sm text-[#838383]">From New York, US</p>
                 </div>
             </div>
-            <div class="inline-flex rounded-3xl w-[794px] bg-white shadow-lg">
-                <img class="rounded-s-3xl w-1/2" src="{{ asset('/storage/img/girl.png') }}" alt="">
-                <div class="p-10">
+            <div
+                class="inline-flex rounded-xl md:rounded-3xl w-[332px] h-[183px] md:h-full md:w-[794px] bg-white shadow-lg mx-auto md:mx-0">
+                <img class="w-1/2 rounded-xl md:rounded-s-3xl" src="{{ asset('/storage/img/girl.png') }}"
+                    alt="">
+                <div class="p-3 md:p-10">
                     <p class="font-poppins text-[#383838]">
-                        <span class="font-medium text-6xl">5.0</span>
-                        <span class="text-2xl">stars</span>
+                        <span class="text-xl font-medium md:text-6xl">5.0</span>
+                        <span class="text-lg md:text-2xl">stars</span>
                     </p>
-                    <svg class="mt-3" width="136" height="24" fill="none"
+                    <svg class="mt-1 md:mt-3" width="136" height="24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M11.327 1.363a.75.75 0 0 1 1.346 0l2.68 5.43a.75.75 0 0 0 .564.41l5.992.87a.75.75 0 0 1 .416 1.28l-4.336 4.226a.75.75 0 0 0-.216.664l1.024 5.967a.75.75 0 0 1-1.089.791l-5.359-2.818a.75.75 0 0 0-.698 0l-5.36 2.818a.75.75 0 0 1-1.088-.79l1.024-5.968a.75.75 0 0 0-.216-.664L1.676 9.353a.75.75 0 0 1 .415-1.28l5.992-.87a.75.75 0 0 0 .565-.41l2.68-5.43ZM39.327 1.363a.75.75 0 0 1 1.346 0l2.68 5.43a.75.75 0 0 0 .564.41l5.992.87a.75.75 0 0 1 .416 1.28l-4.336 4.226a.75.75 0 0 0-.216.664l1.023 5.967a.75.75 0 0 1-1.088.791l-5.359-2.818a.75.75 0 0 0-.698 0l-5.36 2.818a.75.75 0 0 1-1.087-.79l1.023-5.968a.75.75 0 0 0-.216-.664l-4.336-4.226a.75.75 0 0 1 .416-1.28l5.992-.87a.75.75 0 0 0 .565-.41l2.68-5.43ZM67.327 1.363a.75.75 0 0 1 1.346 0l2.68 5.43a.75.75 0 0 0 .564.41l5.992.87a.75.75 0 0 1 .415 1.28l-4.335 4.226a.75.75 0 0 0-.216.664l1.023 5.967a.75.75 0 0 1-1.088.791l-5.359-2.818a.75.75 0 0 0-.698 0l-5.36 2.818a.75.75 0 0 1-1.087-.79l1.023-5.968a.75.75 0 0 0-.216-.664l-4.336-4.226a.75.75 0 0 1 .416-1.28l5.992-.87a.75.75 0 0 0 .565-.41l2.68-5.43ZM95.327 1.363a.75.75 0 0 1 1.346 0l2.68 5.43a.75.75 0 0 0 .564.41l5.992.87a.75.75 0 0 1 .415 1.28l-4.335 4.226a.749.749 0 0 0-.216.664l1.024 5.967a.75.75 0 0 1-1.089.791l-5.359-2.818a.75.75 0 0 0-.698 0l-5.36 2.818a.75.75 0 0 1-1.087-.79l1.023-5.968a.75.75 0 0 0-.216-.664l-4.335-4.226a.75.75 0 0 1 .415-1.28l5.992-.87a.75.75 0 0 0 .565-.41l2.68-5.43ZM123.327 1.363a.75.75 0 0 1 1.346 0l2.679 5.43a.75.75 0 0 0 .565.41l5.992.87a.75.75 0 0 1 .415 1.28l-4.335 4.226a.749.749 0 0 0-.216.664l1.024 5.967a.75.75 0 0 1-1.089.791l-5.359-2.818a.75.75 0 0 0-.698 0l-5.359 2.818a.75.75 0 0 1-1.089-.79l1.024-5.968a.749.749 0 0 0-.216-.664l-4.335-4.226a.75.75 0 0 1 .415-1.28l5.992-.87a.75.75 0 0 0 .565-.41l2.679-5.43Z"
                             fill="#EFBF14" />
                     </svg>
-                    <p class="mt-12 font-poppins text-[#282828] text-lg">“I feel very secure when using caretalls
+                    <p class="mt-6 md:mt-12 font-poppins text-[#282828] text-lg hidden md:block">“I feel very secure
+                        when
+                        using
+                        caretalls
                         services. Your customer care team is
                         very enthusiastic
                         and the driver is always on time.”</p>
-                    <p class="mt-12 font-poppins font-medium text-2xl text-[#252525]">Charlie Johnson</p>
-                    <p class="mt-1 font-poppins text-sm text-[#838383]">From New York, US</p>
+                    <p class="mt-3 md:mt-12 font-poppins font-medium text-base md:text-2xl text-[#252525]">Charlie
+                        Johnson</p>
+                    <p class="mt-1 font-poppins text-xs md:text-sm text-[#838383]">From New York, US</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section
+        class="mt-28 pt-14 px-20 lg:p-20 bg-[url('/storage/app/public/img/download-app.png')] bg-no-repeat bg-cover h-[500px] overflow-y-hidden">
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+            <div class="text-center lg:py-16 lg:ps-16 lg:text-start">
+                <p
+                    class="mx-auto lg:mx-0 px-10 py-2.5 rounded-lg bg-opacity-10 bg-primary font-poppins font-medium text-sm text-primary w-fit">
+                    DOWNLOAD</p>
+                <p class="mt-3 text-xl font-semibold lg:mt-5 lg:text-5xl font-poppins">
+                    <span class="text-[#282828]">Download Rentcars <br> App for</span>
+                    <span class="text-primary">FREE</span>
+                </p>
+                <p class="font-poppins text-sm lg:text-base text-[#3e3e3e] my-4 lg:my-8">For faster, easier booking and
+                    exclusive deals.
+                </p>
+                <div class="flex justify-center space-x-3 lg:justify-start">
+                    <a href="#">
+                        <img src="{{ asset('/storage/img/play-store.png') }}" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="{{ asset('/storage/img/app-store.png') }}" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="mx-auto mt-10 lg:ms-auto lg:mt-0">
+                <img src="{{ asset('/storage/img/mobile-app.png') }}" alt="">
             </div>
         </div>
     </section>
